@@ -1,7 +1,9 @@
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Playables;
 
-public class example : MonoBehaviour {
+public class SkyboxChange : MonoBehaviour {
     public Color colorStart = Color.blue;
     public Color colorEnd = Color.green;
     public float duration = 1.0F;
