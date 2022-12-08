@@ -797,8 +797,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -4744520052382651650, guid: 1d63a453ce20f844694ba0a7df32ba41, type: 2}
     value: {fileID: 284531305}
-  - key: {fileID: 3876134389518624025, guid: 1d63a453ce20f844694ba0a7df32ba41, type: 2}
-    value: {fileID: 1162098688}
+  - key: {fileID: 2053894061770215009, guid: 1d63a453ce20f844694ba0a7df32ba41, type: 2}
+    value: {fileID: 306208782}
   m_ExposedReferences:
     m_References:
     - eb9d1b21bcdb43f448528466abd4ded9: {fileID: 898562443}
@@ -827,6 +827,7 @@ GameObject:
   - component: {fileID: 306208779}
   - component: {fileID: 306208778}
   - component: {fileID: 306208782}
+  - component: {fileID: 306208783}
   m_Layer: 0
   m_Name: GaryDad
   m_TagString: Untagged
@@ -906,7 +907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306208777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 447.43, y: 1.17, z: 78.35}
+  m_LocalPosition: {x: 447.43, y: 0.94, z: 74.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -923,7 +924,7 @@ Animator:
   m_GameObject: {fileID: 306208777}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3380fb42e2b4e6b48b036c44eb13278c, type: 2}
+  m_Controller: {fileID: 9100000, guid: f7ea460503344774ca7ee0ec86e5327a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -933,6 +934,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &306208783
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306208777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 3e6c24393bcf48d4ca5b1a53d06bc3e3, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 6710817437629490653, guid: 3e6c24393bcf48d4ca5b1a53d06bc3e3, type: 2}
+    value: {fileID: 306208782}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &362550220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1716,7 @@ GameObject:
   - component: {fileID: 499905660}
   - component: {fileID: 499905659}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: Gary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2396,7 +2416,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898562442}
-  m_LocalRotation: {x: -3.1288283e-10, y: 0.9998353, z: -0.018148702, w: -0.000000017237118}
+  m_LocalRotation: {x: 0, y: 0.99973273, z: -0.023119546, w: -1e-45}
   m_LocalPosition: {x: 447.43, y: 1.58, z: 89.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
