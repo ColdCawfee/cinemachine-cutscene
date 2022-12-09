@@ -711,6 +711,7 @@ PlayableDirector:
     m_References:
     - eb9d1b21bcdb43f448528466abd4ded9: {fileID: 898562443}
     - 6876afc544bae2e4096ddab1f1e021b2: {fileID: 695209024}
+    - 794f0b2607288584c8e0758c1c802793: {fileID: 994722440}
     - e5338276e3d57ec44af26a44c6d04a95: {fileID: 898562443}
 --- !u!114 &284531305 stripped
 MonoBehaviour:
@@ -2140,6 +2141,7 @@ GameObject:
   - component: {fileID: 499905661}
   - component: {fileID: 499905660}
   - component: {fileID: 499905659}
+  - component: {fileID: 499905664}
   m_Layer: 0
   m_Name: Gary
   m_TagString: Untagged
@@ -2157,7 +2159,7 @@ Animator:
   m_GameObject: {fileID: 499905658}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3380fb42e2b4e6b48b036c44eb13278c, type: 2}
+  m_Controller: {fileID: 9100000, guid: ab6f723eb2e40df46b90d7e08f0a4d02, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2246,6 +2248,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &499905664
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499905658}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: ed0a94f030b3f3847abd72af180b3558, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!43 &504919444
 Mesh:
   m_ObjectHideFlags: 0
@@ -3471,7 +3490,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994722439}
-  m_LocalRotation: {x: 0.048930775, y: -0.9057063, z: 0.10893946, w: 0.40673596}
+  m_LocalRotation: {x: 0.0052866056, y: -0.95169747, z: 0.0036255617, w: 0.3069703}
   m_LocalPosition: {x: 452.5238, y: 3.2435813, z: 94.16761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3479,7 +3498,7 @@ Transform:
   - {fileID: 1201838724}
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.581, y: -144.248, z: -0.449}
 --- !u!1 &1106756024
 GameObject:
   m_ObjectHideFlags: 3
