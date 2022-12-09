@@ -3343,7 +3343,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898562442}
-  m_LocalRotation: {x: 6.9574774e-10, y: 0.9997275, z: -0.023345418, w: 0.000000029794204}
+  m_LocalRotation: {x: -6.9574774e-10, y: 0.9997275, z: -0.023345418, w: -0.000000029794204}
   m_LocalPosition: {x: 447.43, y: 1.58, z: 89.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3665,7 +3665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065938918}
   m_LocalRotation: {x: -0.000035403584, y: -0.99998355, z: 0.003609089, w: 0.0044692643}
-  m_LocalPosition: {x: 447.3637, y: 1.4208202, z: 76.92}
+  m_LocalPosition: {x: 447.3637, y: 1.4208202, z: 80.126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5090,7 +5090,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349404889}
   m_LocalRotation: {x: -0.0036086508, y: 0.0057348083, z: -0.000058195503, w: -0.9999771}
-  m_LocalPosition: {x: 447.4696, y: 1.2473475, z: 86.90737}
+  m_LocalPosition: {x: 447.4696, y: 1.2473475, z: 83.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5296,6 +5296,18 @@ PrefabInstance:
     - target: {fileID: 4562274990630962106, guid: 176c30d75461f3842bb06e3734de7993, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562274990630962106, guid: 176c30d75461f3842bb06e3734de7993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562274990630962106, guid: 176c30d75461f3842bb06e3734de7993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562274990630962106, guid: 176c30d75461f3842bb06e3734de7993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 4562274990698024568, guid: 176c30d75461f3842bb06e3734de7993, type: 3}
       propertyPath: m_audioClip
