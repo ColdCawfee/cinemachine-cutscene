@@ -2182,7 +2182,7 @@ GameObject:
   - component: {fileID: 438974375}
   - component: {fileID: 438974374}
   m_Layer: 0
-  m_Name: CM vcam10
+  m_Name: Cam10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 550664153}
   - component: {fileID: 550664152}
   m_Layer: 0
-  m_Name: CM vcam9
+  m_Name: Cam9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2886,7 +2886,7 @@ GameObject:
   - component: {fileID: 695209025}
   - component: {fileID: 695209024}
   m_Layer: 0
-  m_Name: CM vcam5
+  m_Name: Cam5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3635,7 +3635,7 @@ GameObject:
   - component: {fileID: 833099714}
   - component: {fileID: 833099713}
   m_Layer: 0
-  m_Name: CM vcam8
+  m_Name: Cam8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3706,7 +3706,7 @@ GameObject:
   - component: {fileID: 898562444}
   - component: {fileID: 898562443}
   m_Layer: 0
-  m_Name: CM vcam2
+  m_Name: Cam2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4027,7 +4027,7 @@ GameObject:
   - component: {fileID: 1065938920}
   - component: {fileID: 1065938919}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: Cam7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5452,7 +5452,7 @@ GameObject:
   - component: {fileID: 1349404891}
   - component: {fileID: 1349404890}
   m_Layer: 0
-  m_Name: CM vcam6
+  m_Name: Cam6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
